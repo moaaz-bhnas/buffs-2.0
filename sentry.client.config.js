@@ -11,7 +11,7 @@ const release = "sentry-test@1.0.0";
 Sentry.init({
   dsn:
     SENTRY_DSN ||
-    "https://cac883bfd523424c83029356bf965cbd@o508359.ingest.sentry.io/4504671017500672",
+    "https://015592e6be77414592b93f0f3d3b77dc@o4504671092277248.ingest.sentry.io/4504671094439936",
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1.0,
   release,
